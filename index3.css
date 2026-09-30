@@ -1,0 +1,130 @@
+* {
+  margin: 1px;
+  padding: 1px;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  background-color: pink;
+  text-transform: capitalize;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #766767;
+}
+.diarylogo {
+  height: 30px;
+  border-radius: 40%;
+}
+.logo {
+  margin-left: 4%;
+}
+.action {
+  margin-right: 4%;
+  min-width: 200px;
+  display: flex;
+}
+.nav_bar {
+  display: flex;
+  min-width: 500px;
+  justify-content: space-evenly;
+}
+nav a {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  color: rgb(94, 3, 72);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  padding: 27px 0;
+  border-bottom: 5px solid pink;
+}
+nav a:hover {
+  border-bottom: 4px solid palevioletred;
+}
+.search {
+  height: 30px;
+  min-width: 200px;
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+.searchbar {
+  color: #080707;
+  background-color: bisque;
+  flex-grow: 1;
+  height: 40px;
+  border: 0;
+  border-radius: 0 5px 5px 0;
+}
+.searchicon {
+  box-sizing: content-box;
+  height: 20px;
+  padding: 10px;
+  color: #766767;
+  background-color: bisque;
+  font-weight: 300;
+  border-radius: 5px 0 0 5px;
+}
+.con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.banimg {
+  width: 100%;
+  height: 70%;
+}
+.banner {
+  margin: 2px 0;
+}
+.category {
+  margin: 3px 0;
+  font-size: 90px;
+  letter-spacing: 0.9px;
+  text-transform: capitalize;
+  /* text-decoration:underline; */
+  background-color: rgb(221, 216, 219);
+  /* text-align: center; */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+.category_item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: rgb(221, 216, 219);
+}
+.diaryimg {
+  height: 500px;
+  width: 400px;
+  background-color: rgb(130, 27, 130);
+  border-color: 2px solid;
+  border-radius: 20px;
+}
+.footcon {
+  display: flex;
+
+  padding: 30px 0 40px 0;
+background-color: rgb(221, 216, 219);
+  justify-content: space-evenly;
+}
+.footcolumn {
+  display: flex;
+  flex-direction: column;
+}
+.footcolumn a {
+  text-decoration: none;
+  color: rgb(11, 48, 39);
+  font-size: 19px;
+  padding-bottom: 6px;
+}
+.footcolumn h3 {
+  /* text-decoration: solid; */
+ padding: 30px 0 40px 0;
+  font-weight: 600;
+  color: rgb(28, 15, 89);
+}
