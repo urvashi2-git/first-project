@@ -1,8 +1,6 @@
 # first-project: diary studio..
 
 
-Absolutely — here’s a clean README you can use for your first web page project.
-
  README.md
 
 # 🌐 My First Web Page
